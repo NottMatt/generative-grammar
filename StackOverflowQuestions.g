@@ -7,11 +7,16 @@ Matt Tiemersma (mtiemersma19@georgefox.edu)
 {
 <start>
 <question> ;
+<question> <question> ;
+<statement> <question> ;
+<statement> <statement> <question> ;
+<question> <statement> <question> ;
 <statement> ;
 }
 
 {
 <question>
+<question> <question> ;
 do I need to include <cthing> ? ;
 should I use <cthing> ? ;
 what is throwing the error? ;
@@ -64,7 +69,7 @@ get rid of the errors ;
 learn C++ ;
 finish my assignment ;
 pass a pointer between multiple functions ;
-pass a <pointer> to a <cthing> ;
+pass a <cthing> to a <cthing> ;
 make a tic tac toe game ;
 access the array ;
 learn to use <cthing> ;
@@ -165,7 +170,7 @@ one thing that occurred to me is that people often use <cthing> rather than the 
 I don't think my <cthing> is working. ;
 It would probably be better for me to use <cthing> instead of <cthing> , But <statement> ;
 I can't figure out why should we do it this way. ;
-I would assume it has to do with <cthing>. ;
+I would assume it has to do with <cthing> . ;
 my code is working in my PC but I can't <goal> . ;
 I keep getting <cthing> errors. ;
 }
@@ -264,6 +269,6 @@ variable ;
 variables ;
 argument ;
 arguments ;
-null;
-nullptr;
+null ;
+nullptr ;
 }
